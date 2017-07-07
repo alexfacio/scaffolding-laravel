@@ -1,0 +1,83 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: $white;
+	// Old browsers
+	background: -moz-linear-gradient(top, $white 0%, $gray-middle 100%);
+	// FF3.6-15
+	background: -webkit-linear-gradient(top, $white 0%, $gray-middle 100%);
+	// Chrome10-25,Safari5.1-6
+	background: linear-gradient(to bottom, $white 0%, $gray-middle 100%);
+	// W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+	.card {
+		border: 0;
+		width: 100%;
+		max-width: 350px;
+		background: transparent;
+	}
+	.h5 {
+		text-align: center;
+	}
+	.logo-img {
+		display: block;
+		max-width: 203px;
+		width: 100%;
+		margin: 0 auto 1rem auto;
+	}
+	.reset-psw {
+		display: none;
+		p {
+			color: $white;
+		}
+	}
+	.style-inputs {
+		.lbl {
+			color: $white;
+		}
+	}
+	.btn-link {
+		display: table;
+		margin: 0 auto;
+		font: 14px;
+	}
+}
+
+.reset-psw,
+.login-container {
+	background: $gray-dark;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1) inset;
+	border-radius: 3px;
+	.input-group {
+		.input-group-addon {
+			background: $white;
+			border-top: 1px solid rgba(0, 0, 0, 1);
+			border-bottom: 1px solid rgba(0, 0, 0, 1);
+			border-left: 1px solid rgba(0, 0, 0, 1);
+			border-right: 0;
+		}
+		&:hover {
+			.input-group-addon {
+				border-color: $red;
+			}
+			.form-control {
+				border-color: $red;
+			}
+		}
+		.form-control {
+			border-left: 0;
+			&:focus {
+				border-color: $red;
+			}
+		}
+	}
+	.btn-red {
+		display: table;
+		margin: 0 auto;
+		padding: 10px 60px;
+		font-weight: $bold;
+	}
+}

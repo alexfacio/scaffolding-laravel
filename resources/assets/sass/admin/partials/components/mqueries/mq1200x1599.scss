@@ -1,0 +1,47 @@
+@media all and (min-width: 1200px) and (max-width: 1599px) {
+    /*.modal-tfg {
+        .modal-body {
+            overflow-x: hidden;
+            overflow-y: auto;
+            max-height: 79vh;
+        }
+    }*/
+    .content {
+        margin-left: 0;
+        &.active {
+            margin-left: 220px;
+        }
+    }
+    .setup {
+        .card-indicator {
+            .list-group.list-family li {
+                .action-item {
+                    flex-direction: column;
+                    .action-links {
+                        width: auto;
+                        padding-left: 1rem;
+                    }
+                }
+            }
+            .list-group {
+                li:last-child {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    .action-links {
+                        width: 100%;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    } //RDS
+    .rds {
+        .select-year .form-group {
+            width: 49%;
+        }
+        .select-year .form-group.select-store {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.btn-menuside {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    display: block;
+    padding: 0;
+}
+
+.btn-menuside:before {
+    content: '\f0c9';
+    font: 24px fontawesome;
+    padding: 11px 14px;
+    display: table;
+}
+
+.sidebar {
+    overflow-y: auto;
+    padding-top: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px; //min-height: 100%; //z-index: 1;
+    z-index: 810;
+    background: $gray-middle;
+    transition: transform .3s ease-in-out, width .3s ease-in-out;
+    &.sidebar-dark {
+        background: $black-dark;
+        .nav-container {
+            .nav-sidebar {
+                li.title-section {
+                    color: $gray;
+                }
+                li a {
+                    color: $white;
+                    border-bottom: 1px solid $red-light;
+                }
+                li a:hover,
+                li a.active {
+                    box-shadow: inset 5px 0 0 $white, inset 6px 0 0 $red-light;
+                    background: $gray-dark;
+                    .fa {
+                        color: $white;
+                    }
+                }
+                li a .fa {
+                    color: $red-light;
+                }
+            }
+        }
+    }
+    .nav-container {
+        .nav-sidebar {
+            &.menu-corp {
+                &.hide {
+                    display: none;
+                }
+            }
+            li.title-section {
+                padding: 18px 15px;
+                color: $red-light;
+                font-size: 10px; //border-bottom: 1px solid $red-light;
+                display: block;
+            }
+            li a {
+                position: relative;
+                display: block;
+                padding: 18px 15px 18px 50px;
+                font-size: 12px;
+                color: $black;
+                border-bottom: 1px solid $gray-intermide;
+            }
+            li:last-child a {
+                border: 0;
+            }
+            li a:hover,
+            li a.active {
+                box-shadow: inset 5px 0 0 $red-light, inset 6px 0 0 rgba(0, 0, 0, 1);
+            }
+            li a .fa {
+                font-size: 14px;
+                position: absolute;
+                top: 14px;
+                left: 20px;
+            }
+        }
+    }
+}

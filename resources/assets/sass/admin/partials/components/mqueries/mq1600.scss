@@ -1,0 +1,24 @@
+@media all and (min-width: 1600px) {
+    /*.modal-tfg {
+        .modal-body {
+            overflow-x: hidden;
+            overflow-y: auto;
+            max-height: 79vh;
+        }
+    }*/
+    .sidebar {
+        padding-top: 0;
+    }
+    .btn-menuside {
+        display: none;
+    }
+    .header-admin {
+        padding-left: 15px;
+        width: 100%; //If remove this width, breadums header ajust respect to content.
+        margin-left: 220px;
+    }
+    .content {
+        left: 0px;
+        margin-left: 220px;
+    }
+}

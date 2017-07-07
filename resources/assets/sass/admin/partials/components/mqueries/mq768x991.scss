@@ -1,0 +1,72 @@
+// Medium devices (tablets, 768px and up)
+@media all and (min-width: 768px) and (max-width: 991px) {
+    //Tables
+    .table-responsive {
+        .tables-search,
+        .tables-logs,
+        .tables-pagination,
+        .tables-pagination-bottom,
+        .tables-showlist {
+            padding: 0;
+        }
+        .tables-showlist .dataTables_info {
+            white-space: normal;
+            text-align: left;
+            line-height: 1.5rem;
+        }
+    }
+    .content {
+        margin-left: 0;
+        left: 0px;
+        &.active {
+            left: 220px;
+        }
+    } //Setup
+    .setup {
+        .indicator-input {
+            display: flex;
+            flex-direction: row;
+            .input-group {
+                width: 82%;
+                input.form-control {
+                    text-align: center;
+                    flex-grow: 0;
+                    flex-shrink: 0;
+                    flex-basis: auto;
+                }
+                .input-group-btn {
+                    width: 100%;
+                    padding-top: 1rem;
+                    .btn-blue {
+                        width: 100%;
+                    }
+                }
+            }
+            .form-group {
+                width: 50%;
+                margin-bottom: 0;
+                margin-right: 1%;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    } //RDS
+    .rds {
+        .select-year {
+            margin-bottom: .5rem;
+            .form-group {
+                width: 32.53%;
+            }
+        }
+    }
+    .tab-dashboard {
+        .highlight-main {
+            &.highlight-secondary {
+                .item-highlight {
+                    width: 33.33%;
+                }
+            }
+        }
+    }
+}

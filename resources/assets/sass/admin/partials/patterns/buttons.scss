@@ -1,0 +1,157 @@
+.btn {
+	border-radius: 2px;
+	transition: all .25s ease;
+}
+
+.btn-green,
+.btn-red,
+.btn-white,
+.btn-blue,
+.btn-black {
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .25);
+}
+
+//Colors Inputsgroups
+.input-group {
+	.input-group-btn {
+		.btn-green,
+		.btn-red,
+		.btn-blue,
+		.btn-black {
+			color: $white;
+		}
+		.btn-red {
+			&:hover,
+			&:active,
+			&:focus {
+				color: $red-light;
+			}
+		}
+		.btn-blue {
+			&:hover,
+			&:active,
+			&:focus {
+				color: $blue;
+			}
+		}
+		.btn-green {
+			&:hover,
+			&:active,
+			&:focus {
+				color: $green;
+			}
+		}
+		.btn-black {
+			&:hover,
+			&:active,
+			&:focus {
+				color: $gray-dark;
+			}
+		}
+	}
+}
+
+//Boton red
+.btn-red {
+	background: $red;
+	color: $white;
+	border: 1px solid $gray-variant;
+	&:hover,
+	&:active,
+	&:focus {
+		color: $white;
+		background: $gray-dark;
+		&.disabled {
+			color: $gray-middle;
+		}
+	}
+}
+
+//Boton white
+.btn-white {
+	background: $white;
+	color: $gray-dark;
+	border: 1px solid $gray-variant;
+	&:hover,
+	&:active,
+	&:focus {
+		color: $white;
+		background: $gray-dark;
+		&.disabled {
+			color: $gray-middle;
+		}
+	}
+}
+
+//Boton black
+.btn-black {
+	background: $gray-dark;
+	color: $white;
+	border: 1px solid $gray-variant;
+	&:hover,
+	&:active,
+	&:focus {
+		color: $black;
+		background: $white;
+		&.disabled {
+			color: $gray-middle;
+		}
+	}
+}
+
+//Boton blue
+.btn-blue {
+	background: $blue;
+	color: $white;
+	border: 1px solid $white;
+	&:hover,
+	&:active,
+	&:focus {
+		color: $blue;
+		background: $white;
+		border: 1px solid $blue;
+		&.disabled {
+			color: $gray-middle;
+		}
+	}
+}
+
+//Boton green
+.btn-green {
+	background: $green;
+	color: $white;
+	border: 1px solid $white;
+	&:hover,
+	&:active,
+	&:focus {
+		color: $green;
+		background: $white;
+		border: 1px solid $green;
+		&.disabled {
+			color: $gray-middle;
+		}
+	}
+}
+
+.upload-container {
+	.btn-load {
+		vertical-align: middle;
+		position: relative;
+		.input-file {
+			overflow: hidden;
+			cursor: pointer;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 10px;
+			opacity: 0;
+		}
+	}
+}
+
+.file-name {
+	display: block;
+	margin-top: .5rem;
+}

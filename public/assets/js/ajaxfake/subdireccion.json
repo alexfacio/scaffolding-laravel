@@ -1,0 +1,15 @@
+{
+    "data": [{
+            "_id": 0,
+            "zone": "Zona Comercial"
+        },
+        {
+            "_id": 1,
+            "zone": "Nacional"
+        },
+        {
+            "_id": 2,
+            "zone": "Internacional"
+        }
+    ]
+}

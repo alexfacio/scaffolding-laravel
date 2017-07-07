@@ -1,0 +1,38 @@
+/*Colors Basics*/
+
+$black: #000;
+$black-dark: #373a3c;
+$white: #fff;
+$alpha: .2;
+
+/*Guide Style General*/
+
+$red: #e01e3a;
+$gray: #eeeeee;
+$gray-middle: #e5e5e5;
+$gray-variant: #dedfe1;
+$gray-dark: #2b2e31;
+$gray-middle2: #838383;
+$gray-intermide: #c6c6c7;
+$red-light: #ea5369;
+$blue: #2a80b9;
+$gold: #be9b3f;
+$gold-light: #f2bf4a;
+$green: #27ae61;
+$green-light: #2eca71;
+
+/*Fonts*/
+
+$OpenSans: 'Open Sans',
+'Helvetica Neue',
+Helvetica;
+$reg: 400;
+$light: 300;
+$bold: 700;
+$xbold: 800;
+
+/*Transition*/
+
+$tran-ease25: all .25s ease;
+$navicon-size: 40px;
+$transition: .3s; // increase this to see the transformations in slow-motion

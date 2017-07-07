@@ -1,0 +1,85 @@
+// Large devices (desktops, 992px and up)
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .modal-tfg {
+        .modal-body {
+            overflow-x: hidden;
+            overflow-y: auto;
+            max-height: 60vh;
+        }
+    }
+    .content {
+        margin-left: 0;
+        &.active {
+            margin-left: 220px;
+        }
+    }
+    //Setup
+    .setup {
+        .card-indicator {
+            .list-group.list-family li {
+                &:first-child {
+                    .indicator-input {
+                        margin-bottom: 0;
+                    }
+                }
+                .indicator-input {
+                    margin-bottom: 1rem;
+                }
+                .action-item {
+                    flex-direction: column;
+                    .action-links {
+                        width: auto;
+                        padding-left: 1rem;
+                    }
+                }
+            }
+            .card.card-goal {
+                .long-text {
+                    flex-direction: column;
+                    .input-group {
+                        margin-top: 1rem;
+                        margin-left: 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .indicator-input {
+            display: flex;
+            flex-direction: row;
+            .input-group {
+                width: 82%;
+                input.form-control {
+                    text-align: center;
+                    flex-grow: 0;
+                    flex-shrink: 0;
+                    flex-basis: auto;
+                }
+                .input-group-btn {
+                    width: 100%;
+                    padding-top: 1rem;
+                    .btn-blue {
+                        width: 100%;
+                    }
+                }
+            }
+            .form-group {
+                width: 50%;
+                margin-bottom: 0;
+                margin-right: 1%;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    } //RDS
+    .rds {
+        .select-year .form-group {
+            width: 49%;
+        }
+        .select-year .form-group.select-store {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+}

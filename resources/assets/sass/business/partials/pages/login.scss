@@ -1,0 +1,48 @@
+.login-gvcash {
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	-webkit-flex-direction: column; /* Safari */
+	flex-direction:         column;
+	-webkit-flex-wrap: wrap; /* Safari */
+	flex-wrap:         wrap;
+	-webkit-justify-content: center; /* Safari */
+	justify-content:         center;
+	-webkit-align-items: center; /* Safari */
+	align-items:         center;
+	min-height: 90vh;
+	.logo-img {
+		max-width: 200px;
+		margin: 0 auto 50px auto;
+		-webkit-filter: invert(1);
+   		filter: invert(1);
+	}
+	.login-container {
+		background: #e5e8ec;
+		width: 100%;
+		max-width: 400px;
+		border: 0;
+		.reset-psw {
+			display: none;
+		}
+		.legend-reset {
+			color: $white;
+		}
+		.form-control {
+			font-size: 1.2em;
+			height: 64px;
+			background: $white;
+		}
+		.panel-heading,
+		.panel-footer {
+			background: transparent;
+			border: 0;
+		}
+	}
+	.btn_black {
+		display: table;
+		margin: 0 auto;
+		padding: 10px 60px;
+		font-size: 1.5em;
+		font-weight: $latobold;
+	}
+}

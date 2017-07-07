@@ -1,0 +1,41 @@
+.icon-indicator {
+    font-family: FontAwesome;
+    font-size: 29px;
+    &.star-more {
+        position: relative;
+        display: block;
+        width: 26.93px;
+        height: 30px;
+    }
+    &.star-more:before {
+        position: absolute;
+        color: $gold-light;
+        top: 0;
+        left: 0;
+        content: "\f005";
+        transform: rotate(35deg);
+    }
+    &.star-more:after {
+        position: absolute;
+        color: $gold;
+        top: 0;
+        left: 0;
+        content: "\f005";
+        //text-shadow: 0px 0px 5px $gold-light;
+    }
+    &.star:before {
+        color: $gold;
+        content: "\f005";
+    }
+    &.circle:before {
+        content: "\f111";
+    }
+    &.circle-red:before {
+        color: $red-light;
+        content: "\f111";
+    }
+}
+
+.emojin {
+    width: 25px;
+}

@@ -1,0 +1,47 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $lato;
+  font-size: 16px;
+  background: $white;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+.bg-beige {
+  background: $white;
+}
+
+
+/**
+ * Remove focus dotted
+ */
+
+a:active,
+a:focus {
+  outline: none;
+}
+
+div[canvas] {
+  padding-top: 50px;
+}
+
+nav[canvas] {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+[canvas="container"] {
+  background: $white;
+}
+
+.GVCash-app {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}

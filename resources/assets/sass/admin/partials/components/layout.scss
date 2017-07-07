@@ -1,0 +1,12 @@
+.cardtfg {
+    .cardtfg-header,
+    .cardtfg-footer {
+        background: $white;
+    }
+    table {
+        .btn-link-black,
+        .btn-link-gray {
+            text-decoration: underline;
+        }
+    }
+}

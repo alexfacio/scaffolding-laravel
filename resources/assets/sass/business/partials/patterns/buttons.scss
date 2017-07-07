@@ -1,0 +1,80 @@
+.btn {
+	border-radius: 4px;
+}
+//Menú icon
+.navicon-button {
+	display: inline-block;
+	padding: $navicon-size/5 $navicon-size/5;
+	height: 48px;
+	width: 48px;
+	transition: $transition;
+	cursor: pointer;
+	user-select: none;
+	vertical-align: middle;
+
+	&:hover {
+		.navicon:before,
+		.navicon:after {
+			top: 0;
+			width: $navicon-size/1.8;
+			border-top-left-radius: $navicon-size/14;
+			border-bottom-left-radius: $navicon-size/14;
+			left: 100%;
+		}
+
+		.navicon:before { transform: rotate3d(0,0,1,-145deg); }
+		.navicon:after { transform: rotate3d(0,0,1,145deg); }
+	}
+}
+
+.navicon {
+	@include line;
+	position: relative;
+
+	&:before,
+	&:after {
+		@include line;
+		position: absolute;
+		content: '';
+		transform-origin: $navicon-size/14 center;
+		left: 0;
+	}
+	&:before { top: -($navicon-size/4);}
+	&:after { top: $navicon-size/4; }
+}
+
+.open.navicon-button {
+	transform: scale3d(.8,.8,.8);
+	border-top-left-radius: $navicon-size/14;
+	border-bottom-left-radius: $navicon-size/14;
+
+	.navicon:before,
+	.navicon:after {
+		top: 0;
+		width: $navicon-size/1.8;
+		border-top-left-radius: $navicon-size/14;
+		border-bottom-left-radius: $navicon-size/14;
+		left: 100%;
+	 }
+
+	.navicon:before { transform: rotate3d(0,0,1,-145deg); }
+	.navicon:after { transform: rotate3d(0,0,1,145deg); }
+}
+
+//Boton Azul NAvy
+.btn_black {
+	background: $black;
+	color: $white;
+	border: 1px solid transparent;
+	transition: all .25s ease;
+}
+.btn_black:hover,
+.btn_black:active,
+.btn_black:focus {
+	color: $black;
+	background: $white;
+	border: 1px solid $black;
+	&.disabled {
+		color: $gray-middle;
+	}
+}

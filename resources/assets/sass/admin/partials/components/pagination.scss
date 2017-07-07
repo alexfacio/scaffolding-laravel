@@ -1,0 +1,38 @@
+.nav-pagination-top {
+    .pagination {
+        margin-bottom: 0;
+    }
+}
+
+.nav-pagination-bottom {
+    .pagination {
+        margin-top: 8px;
+    }
+}
+
+.dataTables_paginate {
+    .pagination {
+        >li>a,
+        >li>span {
+            color: $black;
+        }
+        >.disabled>span,
+        >.disabled>span:hover,
+        >.disabled>span:focus,
+        >.disabled>a,
+        >.disabled>a:hover,
+        >.disabled>a:focus {
+            color: $gray-middle2;
+        }
+        >.active>a,
+        >.active>span,
+        >.active>a:hover,
+        >.active>span:hover,
+        >.active>a:focus,
+        >.active>span:focus {
+            color: $white;
+            background-color: $gray-dark;
+            border-color: $gray-dark;
+        }
+    }
+}

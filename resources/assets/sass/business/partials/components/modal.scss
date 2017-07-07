@@ -1,0 +1,154 @@
+//Center modals
+.modal-backdrop {
+	background-color: $black;
+	&.in {
+		opacity: .95;
+	}
+}
+
+.modal-dialog {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -100%);
+          transform: translate(0, -100%);
+}
+
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.modal-header {
+	position: relative;
+	.close {
+		position: absolute;
+		right: 15px;
+		top: -25px;
+		opacity: 1;
+		transition: $tran-ease25;
+		&:hover,
+		&:focus {
+			opacity: .5;
+		}
+		img {
+			width: 42.5px;
+		}
+	}
+}
+.modal-mobile {
+	.modal-content {
+		background: transparent;
+		box-shadow: none;
+		border-radius: 2px;
+		border: 0;
+	}
+	.modal-header,
+	.modal-footer {
+		border: 0;
+	}
+	.modal-footer,
+	.modal-body {
+		background: $white;
+	}
+	.modal-body {
+		h3 {
+			color: $blue-navy;
+			font-size: 1.2em;
+		}
+		.img-app {
+			display: table;
+			margin: 0 auto 15px auto;
+			max-width: 80px;
+		}
+	}
+	.message-browser {
+		background: #f9f7f5;
+		text-align: center;
+		font-size: 14px;
+		.ios,
+		.android {
+			display: none;
+		}
+		.img-shortcut,
+		span {
+			display: inline-block;
+			vertical-align: middle;
+			color: $gray-middle;
+		}
+		.img-shortcut {
+			width: 25px;
+
+		}
+	}
+}
+.modal-perfil {
+	.modal-content {
+		background: transparent;
+		box-shadow: none;
+		border-radius: 2px;
+		border: 0;
+	}
+	.modal-header,
+	.modal-footer {
+		border: 0;
+	}
+	.modal-footer,
+	.modal-body {
+		background: $white;
+	}
+	.modal-body {
+		h5 {
+			font-size: 1.5em;
+		}
+		h4 {
+			font-size: 1.25em;
+			color: $green;
+			font-weight: normal;
+			margin-top: 0;
+		}
+		p {
+			font-size: 1.2em;
+		}
+		.form-control {
+			font-size: 1.2em;
+		}
+		.img-cvv {
+			width: 80px;
+		}
+		.fecha {
+			.form-control {
+				background: $blue-navy;
+				color: $white;
+				option {
+					padding: 10px;
+				}
+			}
+		}
+	}
+	.btn_navyblue,
+	.btn_redsoft {
+		display: block;
+		margin: 0 auto;
+		padding: 15px 10%;
+		font-size: 1.25em;
+		font-weight: $latobold;
+		margin-top: 10px;
+	}
+}

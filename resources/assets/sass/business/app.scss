@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+//Variables, Mixins, function
+@import
+  "partials/_variables",
+  "partials/_mixins";
+
+//Patterns - Atomos
+@import
+  "partials/_base",
+  "partials/patterns/fonts",
+  "partials/patterns/buttons",
+  "partials/patterns/links",
+  "partials/patterns/inputs",
+  "partials/patterns/alerts";
+
+//Modules - Templates
+@import
+  "partials/components/layout",
+  "partials/components/header",
+  "partials/components/footer",
+  "partials/components/modal",
+  "partials/components/pagination",
+  "partials/components/menu-side";
+
+//Pagina - Pages
+@import
+  "partials/pages/login",
+  "partials/pages/gvcash",
+  "partials/components/mqueries/mq759",
+  "partials/components/mqueries/mq760x1024",
+  "partials/components/mqueries/mq990x1024",
+  "partials/components/mqueries/mq1025x1599",
+  "partials/components/mqueries/mq1600";

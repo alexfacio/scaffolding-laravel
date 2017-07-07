@@ -1,0 +1,122 @@
+.home-card {
+	.card {
+		width: 100%;
+	}
+	h1 {
+		margin-top: 0;
+	}
+	.benefits {
+		margin: 20px 0 0 0;
+		display: -webkit-flex;
+		/* Safari */
+		display: flex;
+		-webkit-flex-direction: row;
+		/* Safari */
+		flex-direction: row;
+		-webkit-justify-content: space-between;
+		/* Safari */
+		justify-content: space-between;
+		-webkit-align-items: center;
+		/* Safari */
+		align-items: center;
+		-webkit-flex-wrap: wrap;
+		/* Safari */
+		flex-wrap: wrap;
+		li {
+			background: $white;
+			padding: 10px;
+			margin-bottom: 10px;
+			width: 32%;
+			color: $black;
+			&:last-child {
+				width: 100%;
+				margin-bottom: 0px;
+			}
+			span {
+				display: block;
+				text-align: center;
+			}
+			.percent {
+				font-weight: $latobold;
+			}
+		}
+	}
+	.monto,
+	.points,
+	.percent {
+		font-size: 2em;
+	}
+	.see-move {
+		margin-bottom: 20px;
+		a {
+			text-decoration: underline;
+		}
+	}
+	.menu_movimientos {
+		font-size: 1.5em;
+	}
+	.monto-meta {
+		background: $gray-dark;
+		padding: 15px;
+		a,
+		span {
+			color: $white;
+			display: block;
+			text-align: center;
+		}
+		.monto {
+			font-weight: $latobold;
+		}
+		a,
+		.legend-monto {
+			font-size: 1.25em;
+		}
+		a {
+			text-decoration: underline;
+			transition: $tran-ease25;
+			&:hover {
+				color: $gray;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.movimientos,
+.niveles {
+	display: none;
+	.table-benefits {
+		background: $white;
+		table {
+			color: $black;
+		}
+		thead>tr>th,
+		tbody>tr>td {
+			text-align: center;
+			font-size: 1.5em;
+		}
+		&.table-moves {
+			tbody>tr>th {
+				text-align: center;
+			}
+			.green {
+				color: $green;
+			}
+			.red {
+				color: $red-light;
+			}
+		}
+		tbody>tr>th {
+			text-align: right;
+			font-size: 1.5em;
+		}
+		.table-striped>tbody>tr:nth-of-type(2n+1) {
+			background-color: $white;
+		}
+	}
+}
+
+.restriction {
+	color: #000;
+	margin-top: 15px;
+}

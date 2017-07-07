@@ -1,0 +1,306 @@
+// Extra small devices (portrait phones, less than 544px)
+@media all and (max-width: 543px) {
+    /*.modal-tfg {
+        .modal-body {
+            overflow-x: hidden;
+            overflow-y: auto;
+            max-height: 60vh;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }*/
+    .content {
+        margin-left: 0;
+        left: 0px;
+        &.active {
+            left: 220px;
+        }
+    }
+    .nav-container,
+    .sidebar {
+        width: 84%;
+    } //Tables
+    .table-responsive {
+        table {
+            width: 960px;
+        }
+        .tables-search,
+        .tables-logs,
+        .tables-pagination,
+        .tables-pagination-bottom,
+        .tables-showlist {
+            padding: 0;
+        }
+        .tables-search,
+        .tables-logs {
+            padding-bottom: .5rem;
+        }
+        .tables-pagination-bottom {
+            padding-top: .5rem;
+        }
+        .tables-search .dataTables_filter .form-control {
+            display: block;
+            margin-left: 0;
+            margin-top: .5rem;
+        }
+        .tables-showlist .dataTables_info {
+            white-space: normal;
+            line-height: 1.5rem;
+        }
+    } //Admon de Empresas
+    .cardtfg {
+        .add-corp {
+            display: block;
+        }
+    } //Catalogue Industries
+    .content-industries {
+        .industry-input {
+            .input-group {
+                display: flex;
+                flex-direction: column;
+                input.form-control {
+                    width: 100%;
+                    text-align: center;
+                    flex-grow: 0;
+                    flex-shrink: 0;
+                    flex-basis: auto;
+                }
+                .input-group-btn {
+                    width: 100%;
+                    padding-top: 1rem;
+                    .btn-blue {
+                        width: 100%;
+                    }
+                }
+            }
+            .form-group {
+                width: 50%;
+                margin-bottom: 0;
+                margin-right: 1%;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    } //Setup de Indicators
+    .setup {
+        .card-indicator {
+            .card {
+                &.card-goal {
+                    .input-group {
+                        .form-control {
+                            width: 67%;
+                        }
+                    }
+                }
+            }
+            .list-group {
+                &.list-family {
+                    li {
+                        .row {
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .indicator-input {
+            display: flex;
+            flex-direction: row;
+            .input-group {
+                width: 73%;
+                input.form-control {
+                    text-align: center;
+                    flex-grow: 0;
+                    flex-shrink: 0;
+                    flex-basis: auto;
+                }
+                .input-group-btn {
+                    width: 100%;
+                    padding-top: 1rem;
+                    .btn-blue {
+                        width: 100%;
+                    }
+                }
+            }
+            .form-group {
+                width: 50%;
+                margin-bottom: 0;
+                margin-right: 1%;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    } //RDS
+    .action-tabs {
+        .nav-pills {
+            margin-top: .5rem;
+            flex-wrap: wrap;
+            .nav-item {
+                width: 48%;
+                margin-bottom: .2rem;
+                margin-right: .2rem;
+                &:nth-child(2n) {
+                    margin-right: 0;
+                }
+            }
+            .nav-item+.nav-item {
+                margin-left: 0;
+            }
+        }
+    }
+    .rds {
+        .select-year {
+            flex-direction: column;
+            .form-group {
+                width: 100%;
+                margin-bottom: .5rem;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            .input-group {
+                .input-group-btn {
+                    width: 40%;
+                    .btn {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .card-plantraing {
+            .row {
+                margin-right: 0;
+            }
+            .panel_simulador {
+                margin-right: auto;
+                .big,
+                .projection-map {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+            .my-goal {
+                margin-top: 1rem;
+                flex-direction: column;
+                li {
+                    padding: 1rem 0 0 0;
+                    width: 100%;
+                    text-align: center;
+                }
+                li:first-child {
+                    padding: 1rem 0;
+                }
+                .com-aprox {
+                    margin-left: 0;
+                    width: 100%;
+                    margin-top: 1rem;
+                }
+            }
+            .item-highlight:nth-child(3) {
+                border-right: 0;
+                border-bottom: 1px solid $gray-middle2;
+            }
+        }
+        .activity-content {
+            .date {
+                margin-top: 1rem;
+            }
+        }
+        .scope-training {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .my-courses {
+                li {
+                    width: 100%;
+                    margin-right: 0;
+                    img {
+                        width: 100px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+            .btn-link,
+            .btn-link-green {
+                text-align: center;
+                margin-top: .75rem;
+                margin-bottom: .75rem;
+                margin-left: 0;
+                display: table;
+            }
+        }
+        .activity-item {
+            margin-bottom: 1rem;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .store-container {
+            .new-seller {
+                width: 100%;
+            }
+        }
+    }
+    .tab-dashboard {
+        .h1 {
+            text-align: center;
+        }
+        .highlight-main {
+            flex-direction: column;
+            .item-highlight {
+                width: 100%;
+                border-right: 0;
+                border-bottom: 1px solid $gray-middle2;
+                text-align: center;
+                &.big {
+                    border-right: 0;
+                    border-bottom: 1px solid $white;
+                    margin-bottom: 1rem;
+                }
+            }
+            &.highlight-secondary {
+                .item-highlight {
+                    width: 100%;
+                }
+            }
+        }
+        .comision-aprox,
+        .comision-aprox+.text-muted {
+            display: block;
+            margin-top: .5rem;
+            text-align: center;
+        }
+    } //Roles
+    .roles {
+        .action-add .btn {
+            width: 100%;
+            padding-left: .5rem;
+            padding-right: .5rem;
+            margin: .5rem 0;
+        }
+        .gerencial-container,
+        .store-container {
+            .sucursal-head {
+                margin-top: .5rem;
+                margin-bottom: .5rem;
+                strong {
+                    margin: .5rem 0;
+                }
+            }
+        }
+        .subdirector-container {
+            .action-add .input-group {
+                margin-top: .5rem;
+                margin-bottom: .5rem;
+                flex-direction: column;
+            }
+            .action-add .input-group .btn {
+                margin: 0;
+            }
+        }
+    }
+}

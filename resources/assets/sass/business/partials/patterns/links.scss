@@ -1,0 +1,17 @@
+a {
+	transition: all $transition ease;
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: none;
+	}
+}
+
+.GVCash-link {
+	color: $black;
+	&:hover,
+	&:focus,
+	&:active {
+		color: $blue-navy;
+	}
+}

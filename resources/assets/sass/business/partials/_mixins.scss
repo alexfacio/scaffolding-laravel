@@ -1,0 +1,12 @@
+//Mixin to menu botton, make lines
+@mixin line {
+  display: inline-block;
+  width: $navicon-size/1.25;
+  height: $navicon-size/12;
+  background-color: $white;
+  user-select: none;
+  border: 0;
+  top: 2px;
+  color: $white;
+  transition: $transition;
+}

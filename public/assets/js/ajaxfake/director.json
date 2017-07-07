@@ -1,0 +1,28 @@
+{
+	"data": [{
+			"_id": 0,
+			"name_director": "Pennington Wilson",
+			"email": "penningtonwilson@momentia.com"
+		},
+		{
+			"_id": 1,
+			"name_director": "Shelly Mcfadden",
+			"email": "shellymcfadden@momentia.com"
+		},
+		{
+			"_id": 2,
+			"name_director": "Goff Walter",
+			"email": "goffwalter@momentia.com"
+		},
+		{
+			"_id": 3,
+			"name_director": "Marci Gaines",
+			"email": "marcigaines@momentia.com"
+		},
+		{
+			"_id": 4,
+			"name_director": "Odom Mills",
+			"email": "odommills@momentia.com"
+		}
+	]
+}

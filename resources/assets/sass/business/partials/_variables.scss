@@ -1,0 +1,36 @@
+/*Colors*/
+
+
+/*Basics*/
+
+$black: #000;
+$white: #fff;
+$alpha: .2;
+
+/*Guide Style General*/
+
+$blue: #8fa4ce;
+$blue-navy: #2d3e50;
+$green: #00ab55;
+$white: #ecf0f5;
+$gray: #eeeeee;
+$gray-middle: #738086;
+$gray-variant: #777777;
+$gray-dark: #373737;
+$white-blur: #f7f7f9;
+$red-light: #8e2933;
+
+/*Fonts*/
+
+$lato: 'Lato',
+'Helvetica Neue',
+Helvetica;
+$latoreg: 400;
+$latolight: 300;
+$latobold: 700;
+
+/*Transition*/
+
+$tran-ease25: all .25s ease;
+$navicon-size: 40px;
+$transition: .3s; // increase this to see the transformations in slow-motion

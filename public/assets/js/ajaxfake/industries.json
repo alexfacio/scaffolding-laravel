@@ -1,0 +1,153 @@
+{
+    "data": [{
+        "_id": 0,
+        "category": "Retail"
+    }, {
+        "_id": 1,
+        "category": "Restaurantes"
+    }, {
+        "_id": 2,
+        "category": "Muebles para el hogar"
+    }, {
+        "_id": 3,
+        "category": "Antigüedades y obras de arte"
+    }, {
+        "_id": 4,
+        "category": "Artículos usados"
+    }, {
+        "_id": 5,
+        "category": "Artículos para la decoración de interiores"
+    }, {
+        "_id": 6,
+        "category": "Artículos para la decoración de Exteriores"
+    }, {
+        "_id": 7,
+        "category": "Lámparas ornamentales y candiles"
+    }, {
+        "_id": 8,
+        "category": "Artículos para la decoración de interiores"
+    }, {
+        "_id": 9,
+        "category": "Aceites, grasas, lubricantes y aditivos"
+    }, {
+        "_id": 10,
+        "category": "Lámparas ornamentales y candiles"
+    }, {
+        "_id": 11,
+        "category": "Antigüedades y obras de arte"
+    }, {
+        "_id": 12,
+        "category": "Antigüedades y obras de arte"
+    }, {
+        "_id": 13,
+        "category": "Vidrios y espejos"
+    }, {
+        "_id": 14,
+        "category": "Vidrios y espejos"
+    }, {
+        "_id": 15,
+        "category": "Vidrios y espejos"
+    }, {
+        "_id": 16,
+        "category": "Muebles para el hogar"
+    }, {
+        "_id": 17,
+        "category": "Artículos usados"
+    }, {
+        "_id": 18,
+        "category": "Muebles para el hogar"
+    }, {
+        "_id": 19,
+        "category": "Muebles para el hogar y enseres domésticos"
+    }, {
+        "_id": 20,
+        "category": "Antigüedades y obras de arte"
+    }, {
+        "_id": 21,
+        "category": "Lámparas ornamentales y candiles"
+    }, {
+        "_id": 22,
+        "category": "Artículos usados"
+    }, {
+        "_id": 23,
+        "category": "Lámparas ornamentales y candiles"
+    }, {
+        "_id": 24,
+        "category": "Antigüedades y obras de arte"
+    }, {
+        "_id": 25,
+        "category": "Muebles para el hogar y enseres domésticos"
+    }, {
+        "_id": 26,
+        "category": "Lámparas ornamentales y candiles"
+    }, {
+        "_id": 27,
+        "category": "Vidrios y espejos"
+    }, {
+        "_id": 28,
+        "category": "Artículos usados"
+    }, {
+        "_id": 29,
+        "category": "Muebles para el hogar"
+    }, {
+        "_id": 30,
+        "category": "Muebles para el hogar"
+    }, {
+        "_id": 31,
+        "category": "Artículos usados"
+    }, {
+        "_id": 32,
+        "category": "Muebles para el hogar y enseres domésticos"
+    }, {
+        "_id": 33,
+        "category": "Antigüedades y obras de arte"
+    }, {
+        "_id": 34,
+        "category": "Muebles para el hogar y enseres domésticos"
+    }, {
+        "_id": 35,
+        "category": "Artículos para la decoración de interiores"
+    }, {
+        "_id": 36,
+        "category": "Artículos para la decoración de interiores"
+    }, {
+        "_id": 37,
+        "category": "Artículos usados"
+    }, {
+        "_id": 38,
+        "category": "Muebles para el hogar y enseres domésticos"
+    }, {
+        "_id": 39,
+        "category": "Muebles para el hogar y enseres domésticos"
+    }, {
+        "_id": 40,
+        "category": "Muebles para el hogar y enseres domésticos"
+    }, {
+        "_id": 41,
+        "category": "Artículos para la decoración de interiores"
+    }, {
+        "_id": 42,
+        "category": "Antigüedades y obras de arte"
+    }, {
+        "_id": 43,
+        "category": "Muebles para el hogar y enseres domésticos"
+    }, {
+        "_id": 44,
+        "category": "Lámparas ornamentales y candiles"
+    }, {
+        "_id": 45,
+        "category": "Antigüedades y obras de arte"
+    }, {
+        "_id": 46,
+        "category": "Vidrios y espejos"
+    }, {
+        "_id": 47,
+        "category": "Artículos para la decoración de interiores"
+    }, {
+        "_id": 48,
+        "category": "Aceites, grasas, lubricantes y aditivos"
+    }, {
+        "_id": 49,
+        "category": "Muebles para el hogar y enseres domésticos"
+    }]
+}

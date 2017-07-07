@@ -1,0 +1,48 @@
+.GVCash-header {
+	background: $black;
+	margin-bottom: 0;
+	min-height: 0;
+	border-radius: 0;
+	border-top: 0;
+	border-bottom: 0;
+	border-left: 0;
+	width: 100%;
+	.content-items {
+		width: 100%;
+		display: -webkit-flex; /* Safari */
+	  	display: flex;
+		-webkit-flex-direction: row; /* Safari */
+		flex-direction:         row;
+		-webkit-justify-content: space-between; /* Safari */
+		justify-content:         space-between;
+		-webkit-align-items: center; /* Safari */
+		align-items:         center;
+	}
+	.navbar-header {
+		float: none;
+	}
+	.btn-container {
+		width: 48px;
+	}
+	.btn-back {
+		width: 48px;
+		height: 48px;
+		display: none;
+		color: $white;
+		text-align: center;
+		padding: 10px 0;
+		.fa {
+			font-size: 1.95em;
+		}
+	}
+	.navbar-brand {
+		float: none;
+		padding: 0;
+		width: 100%;
+		max-width: 125px;
+		height: auto;
+		img {
+			width: 100%;
+		}
+	}
+}
