@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'SINDI: The Friedman Group',
+    'name' => 'Project Number ONE',
 
     /*
     |--------------------------------------------------------------------------
